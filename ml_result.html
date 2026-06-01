@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <h1>Crop Prediction Result</h1>
+
+    <h2>
+
+        {{ prediction_text }}
+    </h2>
+
+    <a href="/">
+        <button>Go Back</button>
+    </a>
+
+</body>
+</html>
